@@ -1,0 +1,53 @@
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 16px 20px;
+  
+  &__logo {
+    height: 32px;
+  }
+
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+
+  &__link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 12px;
+
+    &__active {
+      text-decoration: underline;
+    }
+
+    &:hover {
+      text-decoration: underline;
+      color: #ff9393;
+    }
+  }
+}
+
+
+/* Desktop */
+@media (min-width: 640px) {
+  .nav {
+    margin: 60px 100px;
+
+    &__logo {
+      height: 68px;
+    }
+  }
+
+  .menu__link {
+    font-size: 24px;
+  }
+}
