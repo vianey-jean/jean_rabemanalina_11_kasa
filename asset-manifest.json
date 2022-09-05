@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jean_rabemanalina_11_kasa/static/css/main.80719d10.css",
+    "main.js": "/jean_rabemanalina_11_kasa/static/js/main.869aba10.js",
+    "static/media/logo_kasa.svg": "/jean_rabemanalina_11_kasa/static/media/logo_kasa.f915c6323a641c6a632e33d6be342752.svg",
+    "static/media/logo_white.svg": "/jean_rabemanalina_11_kasa/static/media/logo_white.b78e9d7678b04611cf9bce7deba10917.svg",
+    "index.html": "/jean_rabemanalina_11_kasa/index.html",
+    "main.80719d10.css.map": "/jean_rabemanalina_11_kasa/static/css/main.80719d10.css.map",
+    "main.869aba10.js.map": "/jean_rabemanalina_11_kasa/static/js/main.869aba10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80719d10.css",
+    "static/js/main.869aba10.js"
+  ]
+}
