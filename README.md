@@ -2,7 +2,7 @@
 
 git clone https://github.com/vianey-jean/jean_rabemanalina_11_kasa.git
 
-# to install, juste 
+# to install app, just
 
 ### `npm install`
 
