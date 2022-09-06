@@ -1,0 +1,10 @@
+.apropos{
+    margin: 20px;
+}
+
+/* Desktop */
+@media (min-width: 640px) {
+    .apropos{
+        margin: 20px 100px;
+    }
+}

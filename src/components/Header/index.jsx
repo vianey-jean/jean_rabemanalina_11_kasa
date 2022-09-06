@@ -1,42 +1,36 @@
-/**
- * Import du link et navlink dans le react router dom
- */
 import { Link, NavLink } from 'react-router-dom'
-import logo from '../../assets/logo_kasa.svg'
+import logo from '../../assets/logo_kasa.svg'//Import logo kasa
 
 /**
  * Header component
  * @returns {React.ReactElement} JSX.Element - Header with logo and links
  */
 
-/**
- * Fonction header
- */
-function Header() {
+function Header() {//création méthode header
   return (
-    <header>
-      <nav className="nav">
+    <header>{/**Création squelette de header */}
+      <nav className="nav">{/**Création NAV */}
         <Link to="/">
-          <img className="nav__logo" src={logo} alt="Kasa logo" />
+          <img className="nav__logo" src={logo} alt="Kasa logo" /> {/**Lien reste sur accueil */}
         </Link>
 
-        <div className="menu">
-          <NavLink 
+        <div className="menu">{/**mettre class Menu */}
+          <NavLink /**Lien reste sur accueil */
             className={({ isActive }) =>
               isActive ? 'menu__link menu__link__active' : 'menu__link'
             }
             to="/"
           >
             Accueil
-          </NavLink>{/**lien sur accueil pour le clique */}
-          <NavLink
+          </NavLink>
+          <NavLink /**Lien reste sur A porpos */
             className={({ isActive }) =>
               isActive ? 'menu__link menu__link__active' : 'menu__link'
             }
-            to="/"
+            to="/apropos"
           >
             A Propos
-          </NavLink>{/**lien sur a propos pour le clique */}
+          </NavLink>
         </div>
       </nav>
     </header>

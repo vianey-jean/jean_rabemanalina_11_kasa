@@ -1,19 +1,11 @@
-/**
- * import du react et react dom
- * import du scss dans index3scss
- * import app dans app.jsx
- */
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './styles/index.scss'
+import React from 'react'//import le react
+import ReactDOM from 'react-dom/client'//import le dom de react sur client
+import './styles/index.scss'//Import le css que on a besoin
 import App from './App'
 
-/**
- * j'envoye dans le root le "app"
- */
-const root = ReactDOM.createRoot(document.getElementById('root'))
-root.render(
-  <React.StrictMode>{/**React.strictMode: est un outil pour détecter les problèmes potentiels d’une application */}
-    <App />
+const root = ReactDOM.createRoot(document.getElementById('root')) //Tous les visuels seront envoyé à id=root sur index.html
+root.render(//rendu visuel
+  <React.StrictMode>{/**outil pour détecter les problèmes potentiels d’une application */}
+    <App />{/**liaison avec la méthode app */}
   </React.StrictMode>
 )
