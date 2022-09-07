@@ -1,6 +1,12 @@
+/**Apropos Description
+ * @typedef {Object[]} AproposDectription
+ * @param {String} AproposDectription[].title
+ * @param {String} AproposDectription[].text
+ */
 
 
-const AproposDescriptions = [//Tous les description dans "A propos" en forme data
+//Tous les description dans "A propos" en forme data
+const AproposDescriptions = [
   {
     title: 'Fiabilité',
     text: 'Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes.',

@@ -6,22 +6,22 @@ import React, { useState } from 'react'
  * @returns  {React.ReactElement} JSX.Element
  */
 
-function Collapse({ title, content }) {//Creaction du méthode collapse
+function Collapse({ title, content }) { //Creaction du méthode collapse
   const [show, setShow] = useState(false) //méthode boolean
-  const isArray = Array.isArray(content)//variable isArray comme tableau
-
+  const isArray = Array.isArray(content)  //variable isArray comme tableau
+  
   return (
     <>
       <div className="collapse">
         <div
           className={show ? 'collapse__title true' : 'collapse__title false'}
-          onClick={() => setShow(!show)}//Pour le fonction clique sur la méthode setshow
+          onClick={() => setShow(!show)}  //Pour le fonction clique sur la méthode setshow
         >
-          <p>{title}</p>{/**le titre dans le data */}
+          <p>{title}</p>  {/**le titre dans le data */}
         </div>
         <div
           className={
-            show ? 'collapse__describle true' : 'collapse__describle false' //Ouvrir ou fermer apres clique
+            show ? 'collapse__describle true' : 'collapse__describle false'  //Ouvrir ou fermer apres clique
           }
         >
           {isArray ? (

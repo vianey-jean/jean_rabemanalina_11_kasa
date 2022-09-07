@@ -1,21 +1,21 @@
 import { Link, NavLink } from 'react-router-dom'
-import logo from '../../assets/logo_kasa.svg'//Import logo kasa
-
+import logo from '../../assets/logo_kasa.svg'  //Import logo kasa
+ 
 /**
  * Header component
  * @returns {React.ReactElement} JSX.Element - Header with logo and links
  */
 
-function Header() {//création méthode header
+function Header() {   //création méthode header
   return (
-    <header>{/**Création squelette de header */}
-      <nav className="nav">{/**Création NAV */}
+    <header>  {/**Création squelette de header */}
+      <nav className="nav">  {/**Création NAV */}
         <Link to="/">
-          <img className="nav__logo" src={logo} alt="Kasa logo" /> {/**Lien reste sur accueil */}
+          <img className="nav__logo" src={logo} alt="Kasa logo" />  {/**Lien reste sur accueil */}
         </Link>
 
-        <div className="menu">{/**mettre class Menu */}
-          <NavLink /**Lien reste sur accueil */
+        <div className="menu">  {/**mettre class Menu */}
+          <NavLink  /**Lien reste sur accueil */
             className={({ isActive }) =>
               isActive ? 'menu__link menu__link__active' : 'menu__link'
             }
@@ -23,7 +23,7 @@ function Header() {//création méthode header
           >
             Accueil
           </NavLink>
-          <NavLink /**Lien reste sur A porpos */
+          <NavLink  /**Lien reste sur A porpos */
             className={({ isActive }) =>
               isActive ? 'menu__link menu__link__active' : 'menu__link'
             }
