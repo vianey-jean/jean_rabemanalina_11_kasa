@@ -11,7 +11,7 @@ function App() {
         <Header /> {/**Mettre en place le header */}
         <main className="main"> {/**Mettre en place le main */}
           <Routes>
-            <Route path="/" element={<Accueil />} />  {/**Mettre en place la page accueil */}
+            <Route path="/accueil" element={<Accueil />} />  {/**Mettre en place la page accueil */}
             <Route path="/apropos" element={<Apropos />} /> {/**Mettre en place la page à propos */}          
           </Routes>
         </main>
