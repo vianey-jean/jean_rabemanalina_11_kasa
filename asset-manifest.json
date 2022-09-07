@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/jean_rabemanalina_11_kasa/static/css/main.4fc4fa3f.css",
-    "main.js": "/jean_rabemanalina_11_kasa/static/js/main.727d0537.js",
+    "main.js": "/jean_rabemanalina_11_kasa/static/js/main.a872a133.js",
     "static/media/apropos.png": "/jean_rabemanalina_11_kasa/static/media/apropos.161cc9194b8fa99b3ed4.png",
     "static/media/banner.png": "/jean_rabemanalina_11_kasa/static/media/banner.c0004a148add86b46b8d.png",
     "static/media/logo_kasa.svg": "/jean_rabemanalina_11_kasa/static/media/logo_kasa.f915c6323a641c6a632e33d6be342752.svg",
     "static/media/logo_white.svg": "/jean_rabemanalina_11_kasa/static/media/logo_white.b78e9d7678b04611cf9bce7deba10917.svg",
     "index.html": "/jean_rabemanalina_11_kasa/index.html",
     "main.4fc4fa3f.css.map": "/jean_rabemanalina_11_kasa/static/css/main.4fc4fa3f.css.map",
-    "main.727d0537.js.map": "/jean_rabemanalina_11_kasa/static/js/main.727d0537.js.map"
+    "main.a872a133.js.map": "/jean_rabemanalina_11_kasa/static/js/main.a872a133.js.map"
   },
   "entrypoints": [
     "static/css/main.4fc4fa3f.css",
-    "static/js/main.727d0537.js"
+    "static/js/main.a872a133.js"
   ]
 }
