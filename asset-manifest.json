@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/jean_rabemanalina_11_kasa/static/css/main.a72e7267.css",
-    "main.js": "/jean_rabemanalina_11_kasa/static/js/main.a50bd709.js",
-    "static/media/apropos.png": "/jean_rabemanalina_11_kasa/static/media/apropos.161cc9194b8fa99b3ed4.png",
-    "static/media/banner.png": "/jean_rabemanalina_11_kasa/static/media/banner.c0004a148add86b46b8d.png",
-    "static/media/logo_kasa.svg": "/jean_rabemanalina_11_kasa/static/media/logo_kasa.f915c6323a641c6a632e33d6be342752.svg",
-    "static/media/logo_white.svg": "/jean_rabemanalina_11_kasa/static/media/logo_white.b78e9d7678b04611cf9bce7deba10917.svg",
+    "main.css": "/static/css/main.a72e7267.css",
+    "main.js": "/static/js/main.9e4d6008.js",
+    "static/media/apropos.png": "/static/media/apropos.161cc9194b8fa99b3ed4.png",
+    "static/media/banner.png": "/static/media/banner.c0004a148add86b46b8d.png",
+    "static/media/logo_kasa.svg": "/static/media/logo_kasa.f915c6323a641c6a632e33d6be342752.svg",
+    "static/media/logo_white.svg": "/static/media/logo_white.b78e9d7678b04611cf9bce7deba10917.svg",
     "index.html": "/index.html",
-    "main.a72e7267.css.map": "/jean_rabemanalina_11_kasa/static/css/main.a72e7267.css.map",
-    "main.a50bd709.js.map": "/jean_rabemanalina_11_kasa/static/js/main.a50bd709.js.map"
+    "main.a72e7267.css.map": "/static/css/main.a72e7267.css.map",
+    "main.9e4d6008.js.map": "/static/js/main.9e4d6008.js.map"
   },
   "entrypoints": [
     "static/css/main.a72e7267.css",
-    "static/js/main.a50bd709.js"
+    "static/js/main.9e4d6008.js"
   ]
 }
