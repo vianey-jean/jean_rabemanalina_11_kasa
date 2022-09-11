@@ -8,7 +8,7 @@ import axios from 'axios'
 
 export async function getData() { //Export les donné reçu
   try {
-    const response = await axios.get(`./api/logement.json`) //Prendre les donné dans le fichier json logement
+    const response = await axios.get(`../../api/logement.json`) //Prendre les donné dans le fichier json logement
     return response.data  //retourne le donné
   } catch (error) {  // si non erreur
     console.log(error)

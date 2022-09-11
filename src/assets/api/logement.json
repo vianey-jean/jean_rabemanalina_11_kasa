@@ -1,0 +1,223 @@
+[
+	{
+		"id": "c67ab8a7",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Batignolle",
+			"Montmartre"
+		]
+	},
+	{
+		"id": "b9123946",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		
+		"tags": [
+			"Canal Saint Martin",
+			"République",
+			"Appartement"
+		]
+	},
+	{
+		"id": "46d188c5",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		
+		"tags": [
+			"Buttes Chaumont",
+			"Laumière",
+			"Studio"
+		]
+	},
+	{
+		"id": "7af00cd6",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Parmentier",
+			"Marais",
+			"Parc",
+			"Night Life"
+		]
+	},
+	{
+		"id": "0979876d",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		
+		"tags": [
+			"Goncourt",
+			"Proche commerces"
+		]
+	},
+	{
+		"id": "f72a452f",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Montmartre",
+			"Culture",
+			"Charme"
+		]
+	},
+	{
+		"id": "b4c67936",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Transports",
+			"Cheap",
+			"18ème"
+		]
+	},
+	{
+		"id": "bc6f7112",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+
+		"tags": [
+			"Luxe",
+			"Tour Eiffel",
+			"T3",
+			"6ème"
+		]
+	},
+	{
+		"id": "cb2f9222",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Montparnasse",
+			"Commerces",
+			"Famille"
+		]
+	},
+	{
+		"id": "d60ca600",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Père Lachaise",
+			"11e",
+			"Metro 3",
+			"Metro 2"
+		]
+	},
+	{
+		"id": "2cf259e1",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Marais",
+			"Studio",
+			"Parc"
+		]
+	},
+	{
+		"id": "5323c29b",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Marais",
+			"République",
+			"Studio",
+			"Proche Métros",
+			"Commerces"
+		]
+	},
+	{
+		"id": "af6d2d48",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+		
+		"tags": [
+			"Forêt",
+			"Nature",
+			"Musée d'Ecouen"
+		]
+	},
+	{
+		"id": "7cbb378e",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Forêt",
+			"Nature",
+			"Grande maison"
+		]
+	},
+	{
+		"id": "ba55a0cc",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Nature",
+			"Groupe",
+			"Maison"
+		]
+	},
+	{
+		"id": "1e181317",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"La Défense",
+			"Loft",
+			"Luxe"
+		]
+	},
+	{
+		"id": "1e180563",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Vue Parc",
+			"Apt de Charme"
+		]
+	},
+	{
+		"id": "2139a317",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Vue Parc",
+			"Métros"
+		]
+	},
+	{
+		"id": "6ff132c6",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Studio",
+			"Charmant",
+			"13e"
+		]
+	},
+	{
+		"id": "cb02d69b",
+		"title": "Appartement cosy",
+		"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
+	
+		"tags": [
+			"Louvre",
+			"Marais",
+			"Rivoli"
+		]
+	}
+]
