@@ -1,13 +1,10 @@
 import { getData } from '../../service/service'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import DetailHousing from '../../components/DetailHousing'
+import DetailLogement from '../../components/DetailLogement'
 import Loader from '../../components/Loader'
 
-/**
- * Presentation of the selected accommodation
- * @returns  {React.ReactElement} JSX.Element
- */
+
 
 function HousingDetails() {
   const { id } = useParams()
@@ -27,7 +24,7 @@ function HousingDetails() {
         <Loader />
       ) : (
         LogementData.filter((logement) => logement.id.includes(id)).map(
-          (logement) => <DetailHousing key={logement.id} logement={logement} />
+          (logement) => <DetailLogement key={logement.id} logement={logement} />
         )
       )}
     </section>

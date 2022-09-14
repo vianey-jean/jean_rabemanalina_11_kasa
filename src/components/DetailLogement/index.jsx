@@ -1,24 +1,11 @@
-import Slider from '../../components/Slider'
-import Tag from '../../components/Tag'
-import Rating from '../../components/Rating'
-import Collapse from '../../components/Collapse'
+import Slider from '../Slider'
+import Tag from '../Tag'
+import Rating from '../Rating'
+import Collapse from '../Collapse'
 
-/**
- * Shows the details of the accommodations
- * @param {Object[]}        logement
- * @param {Object[]}        logement[].pictures photos of the accommodation
- * @param {String}          logement[].title
- * @param {String}          logement[].location
- * @param {String}          logement[].tag
- * @param {String}          logement[].rating
- * @param {String}          logement[].host.name
- * @param {String}          logement[].host.picture
- * @param {String}          logement[].description
- * @param {String}          logement[].equipements
- * @returns  {React.ReactElement} JSX.Element
- */
 
-function DetailHousing({ logement }) {
+
+function DetailLogement({ logement }) {
   return (
     <article className="article">
       <Slider allPictures={logement.pictures} />
@@ -49,4 +36,4 @@ function DetailHousing({ logement }) {
   )
 }
 
-export default DetailHousing
+export default DetailLogement
