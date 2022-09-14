@@ -1,4 +1,4 @@
-.listeChambre {
+.listingHousing {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
@@ -7,7 +7,7 @@
 
 /* Desktop */
 @media (min-width: 640px) {
-  .listeChambre {
+  .listingHousing {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 30px;
     background-color: #f6f6f6;

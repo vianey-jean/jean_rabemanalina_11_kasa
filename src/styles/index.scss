@@ -1,10 +1,15 @@
 
+@import "./globalSetting";
 @import "./header";
 @import "./banner";
-@import "./collapse";
 @import "./loader";
-@import "./accueil";
-@import "./apropos";
+@import "./Accueil";
 @import "./card";
+@import "./detailHousing";
+@import "./rating";
+@import "./Tag";
+@import "./collapse";
+@import "./slide";
+@import "./apropos";
 @import "./error";
 @import "./footer"

@@ -1,11 +1,4 @@
-/**Apropos Description
- * @typedef {Object[]} AproposDectription
- * @param {String} AproposDectription[].title
- * @param {String} AproposDectription[].text
- */
 
-
-//Tous les description dans "A propos" en forme data
 const AproposDescriptions = [
   {
     title: 'Fiabilité',

@@ -7,7 +7,7 @@
 
   & p {
     margin: 0px;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 500;
     //padding: 5.5px 11.5px;
   }
@@ -29,13 +29,13 @@
 
 .collapse__describle {
   background:#F6F6F6;
-  width: 96.5%;
+  width: 100%;
   margin-bottom: 20px;
   
 
   & p {
     margin: 0px;
-    font-size: 20px;
+    font-size: 12px;
   }
    
   ul {
@@ -59,7 +59,7 @@
     transform: translate(0,-10px);
     visibility: visible;
     opacity: 1;
-    transition: all 0.1s linear 0.2s, opacity 1000ms;
+    transition: all 0s linear 0s, opacity 100ms;
     position: relative;
     z-index: -1;
     height: auto;

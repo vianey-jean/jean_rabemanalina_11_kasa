@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 
 /**
  * Shows the details of the accommodations
@@ -9,14 +9,16 @@ import React from 'react'
  * @param {String}          logement[].title
  * @returns  {React.ReactElement} JSX.Element
  */
-function card({ logement }) {  //Création de la méthode card pour mettre en place les logement sur la page accueil
+function card({ logement }) {
   return (
+    <Link className="listing__link" to={`fiche-logement/${logement.id}`}>
       <article className="listing__card">
         <div className="listing__image">
-          <img src={logement.cover} alt="intérieur du logement" /> {/**Relier la photo de logement au donné reçu */}
+          <img src={logement.cover} alt="intérieur du logement" />
         </div>
-        <h2 className="listing__title">{logement.title}</h2> {/**Relier la titre du logement au donné reçu */}
+        <h2 className="listing__title">{logement.title}</h2>
       </article>
+    </Link>
   )
 }
 

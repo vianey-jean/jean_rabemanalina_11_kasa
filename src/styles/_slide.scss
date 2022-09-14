@@ -1,0 +1,57 @@
+
+.slider {
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &__arrowLeft {
+    position: absolute;
+    top:42%;
+    left: 2%;
+    z-index: 1000;
+    cursor: pointer;
+    svg{
+      opacity: 0.8;
+      transition: 550ms;
+    }
+    &:hover {
+      svg{
+        opacity: 1;
+      }
+    }
+  }
+  &__arrowRight {
+    position: absolute;
+    top:42%;
+    right: 2%;
+    z-index: 1000;
+    cursor: pointer;
+    svg{
+      opacity: 0.8;
+      transition: 550ms;
+    }
+
+    &:hover {
+      svg{
+        opacity: 1;
+      }
+    }
+  }
+    
+  &__img {
+    object-fit: cover;
+    height: 255px;
+    width: 100%;
+    padding: 0;
+    border-radius: 10px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 640px) {
+  .slider__img {
+    height: 415px;
+  }
+}

@@ -1,29 +1,12 @@
 import axios from 'axios'
 
-/**
- * Get Chambre data from API
- * @async
- * @return {Promise<ChambreData>} The data from the URL.
- */
-
-export async function getData() { //Export les donné reçu
+export async function getData() {
   try {
-    const response = await axios.get(`./data/logement.json`) //Prendre les donné dans le fichier json logement
-    return response.data  //retourne le donné
-  } catch (error) {  // si non erreur
+    const response = await axios.get(`../datas/logement.json`)
+    return response.data
+  } catch (error) {
     console.log(error)
   }
 }
 
-/**User information
- * @typedef {Object} ChambreData
- * @param {String} title
- * @param {String} cover
- * @param {Object[]} pictures
- * @param {String} description
- * @param {Object} host
- * @param {String} rating
- * @param {String} location
- * @param {Object[]} equipments
- * @param {Object[]} tags
- */
+

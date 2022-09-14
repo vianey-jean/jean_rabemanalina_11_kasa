@@ -2,7 +2,6 @@
   "name": "jean_rabemanalina_11_kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage ": "https://vianey-jean.github.io/jean_rabemanalina_11_kasa/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -19,8 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [

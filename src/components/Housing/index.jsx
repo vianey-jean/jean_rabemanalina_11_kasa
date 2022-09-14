@@ -1,13 +1,13 @@
 import { getData } from '../../service/service'
 import React, { useEffect, useState } from 'react'
-import Card from '../Card'
-import Loader from '../Loader'
+import Card from '../../components/Card'
+import Loader from '../../components/Loader'
 
 /**
  * Presentation of all accommodation
  * @returns {React.ReactElement} JSX.Element - List of accommodation
  */
-function Chambre() {
+function Housing() {
   /**
    * P.M.
    * useState - Hook d'état - :est un Hook qui permet d’ajouter l’état local React à des fonctions composants.
@@ -37,11 +37,11 @@ function Chambre() {
   return (
     <>
       {loading ? (
-        <Loader /> //Mettre en place une loader
+        <Loader />
       ) : (
         <>
-          {LogementsData.map((logement) => ( //Prendre dans le donné tous le logement
-            <Card key={logement.id} logement={logement} /> //Mettre par son id
+          {LogementsData.map((logement) => (
+            <Card key={logement.id} logement={logement} />
           ))}
         </>
       )}
@@ -49,4 +49,4 @@ function Chambre() {
   )
 }
 
-export default Chambre
+export default Housing

@@ -4,7 +4,7 @@ import banner from '../../assets/banner.png'
  * Banner component
  * @returns {React.ReactElement} JSX.Element - banner image and title
  */
-function Banner() {  //création méthode banner
+function Banner() {
   return (
     <>
       <div className="banner__image">
