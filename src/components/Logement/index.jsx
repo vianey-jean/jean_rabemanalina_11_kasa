@@ -7,7 +7,7 @@ import Loader from '../../components/Loader'
  * Presentation of all accommodation
  * @returns {React.ReactElement} JSX.Element - List of accommodation
  */
-function Housing() {
+function Logement() {
   /**
    * P.M.
    * useState - Hook d'état - :est un Hook qui permet d’ajouter l’état local React à des fonctions composants.
@@ -49,4 +49,4 @@ function Housing() {
   )
 }
 
-export default Housing
+export default Logement

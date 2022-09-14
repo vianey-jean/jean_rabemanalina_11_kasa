@@ -1,5 +1,5 @@
 import Banner from '../../components/Banner'
-import Housing from '../../components/Housing'
+import Logement from '../../components/Logement'
 
 
 function Accueil() {
@@ -10,7 +10,7 @@ function Accueil() {
       </section>
 
       <section className="listingHousing">
-        <Housing />
+        <Logement />
       </section>
     </>
   )
