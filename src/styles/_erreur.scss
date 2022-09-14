@@ -1,4 +1,4 @@
-.error {
+.erreur {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +28,7 @@
   
 /* Desktop */
 @media (min-width: 640px) {
-  .error {
+  .erreur {
       &__message {
           margin: 20px 0;
       }

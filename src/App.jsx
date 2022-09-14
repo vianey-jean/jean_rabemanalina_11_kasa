@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import Accueil from './pages/Accueil'
 import Apropos from './pages/Apropos'
 import HousingDetails from './pages/HousingDetails'
-import Error from './pages/Error'
+import Erreur from './pages/Erreur'
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
             <Route path="fiche-logement/:id" element={<HousingDetails />} />
             <Route path="/apropos" element={<Apropos />} />
             {/*path="*" renvoi à la page erreur 404 si l'url de rien de déclaré au dessus*/}
-            <Route path="*" element={<Error />} />
+            <Route path="*" element={<Erreur />} />
           </Routes>
         </main>
       </div>
