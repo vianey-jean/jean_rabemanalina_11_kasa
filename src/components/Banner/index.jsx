@@ -1,9 +1,6 @@
 import banner from '../../assets/banner.png'
 
-/**
- * Banner component
- * @returns {React.ReactElement} JSX.Element - banner image and title
- */
+
 function Banner() {
   return (
     <>

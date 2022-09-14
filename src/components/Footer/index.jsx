@@ -1,9 +1,5 @@
 import logo from '../../assets/logo_white.svg'
 
-/**
- * Footer component
- * @returns {React.ReactElement} JSX.Element
- */
 
 function Footer() {
   return (

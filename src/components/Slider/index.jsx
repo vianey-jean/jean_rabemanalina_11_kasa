@@ -1,9 +1,5 @@
 import React, { useState } from 'react'
-/**
- * Display the slider
- * @param {Object[]} allPictures All pictures of the accommodation
- * @returns {React.ReactElement} JSX.Element
- */
+
 function Slider({ allPictures }) {
   const [currentPicture, setCurrentPicture] = useState(0)
   const length = allPictures.length

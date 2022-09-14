@@ -1,10 +1,5 @@
 import React, { useState } from 'react'
 
-/**
- * Collapse card
- * @param {{title : String, content: String}}    props
- * @returns  {React.ReactElement} JSX.Element
- */
 
 function Collapse({ title, content }) {
   const [show, setShow] = useState(false)

@@ -1,10 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import logo from '../../assets/logo_kasa.svg'
 
-/**
- * Header component
- * @returns {React.ReactElement} JSX.Element - Header with logo and links
- */
 
 function Header() {
   return (

@@ -1,8 +1,3 @@
-/**
- * Displays the stars according to notes
- * @param {Number} numberOfStars
- * @returns {React.ReactElement} JSX.Element
- */
 
 function Rating({ numberOfStars }) {
   return (

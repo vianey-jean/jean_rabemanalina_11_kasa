@@ -1,12 +1,9 @@
 import { getData } from '../../service/service'
 import React, { useEffect, useState } from 'react'
-import Card from '../../components/Card'
-import Loader from '../../components/Loader'
+import Card from '../Card'
+import Loader from '../Loader'
 
-/**
- * Presentation of all accommodation
- * @returns {React.ReactElement} JSX.Element - List of accommodation
- */
+
 function Logement() {
   /**
    * P.M.

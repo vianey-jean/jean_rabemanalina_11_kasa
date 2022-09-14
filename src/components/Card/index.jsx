@@ -1,14 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-/**
- * Shows the details of the accommodations
- * @param {Object[]}        logement
- * @param {Number}          logement[].id
- * @param {String}          logement[].cover
- * @param {String}          logement[].title
- * @returns  {React.ReactElement} JSX.Element
- */
+
 function card({ logement }) {
   return (
     <Link className="listing__link" to={`fiche-logement/${logement.id}`}>
