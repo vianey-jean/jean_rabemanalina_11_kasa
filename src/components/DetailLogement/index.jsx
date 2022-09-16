@@ -11,14 +11,16 @@ function DetailLogement({ logement }) {
       <Slider allPictures={logement.pictures} />
 
       <div className="article__desktop">
-        <h1 className="article__title">{logement.title}</h1>
-        <p className="article__location">{logement.location}</p>
-        <div className="article__tags">
-          {logement.tags.map((tag) => (
-            <Tag name={tag} key={tag} />
-          ))}
+        <div className="left">
+          <h1 className="article__title">{logement.title}</h1>
+          <p className="article__location">{logement.location}</p>
+          <div className="article__tags">
+            {logement.tags.map((tag) => (
+              <Tag name={tag} key={tag} />
+            ))}
+          </div>
         </div>
-
+        
         <div className="article__profile">
           <Rating numberOfStars={logement.rating} />
           <div className="article__host">
