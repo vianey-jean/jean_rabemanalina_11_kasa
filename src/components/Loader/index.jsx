@@ -1,8 +1,8 @@
 
 
-function Loader() {
+function Loader() { //Création de la fonction loader
   return (
-    <div className="lds-ripple">
+    <div className="loading">
       <div></div>
       <div></div>
       <div></div>

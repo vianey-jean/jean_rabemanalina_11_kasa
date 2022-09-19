@@ -1,4 +1,4 @@
-.listing__card {
+.liste__card {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -8,28 +8,28 @@
   border-radius: 10px;
 }
 
-.listing__link {
+.liste__link {
   text-decoration: none;
   transition: transform 0.3s;
 }
 
-.listing__link:hover {
+.liste__link:hover {
   transform: scale(1.02);
 }
 
-.listing__image {
+.liste__image {
   background-color: #ff6060;
   height: 100%;
   width: 100%;
 }
 
-.listing__image img {
+.liste__image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.listing__image:before {
+.liste__image:before {
   content: "";
   display: block;
   position: absolute;
@@ -44,7 +44,7 @@
   );
 }
 
-.listing__title {
+.liste__title {
   position: absolute;
   bottom: 0;
   left: 0;

@@ -1,22 +1,22 @@
 import React, { useState } from 'react'
 
-function Slider({ allPictures }) {
+function Slider({ allPictures }) { //Création de la fonction Slider
   const [currentPicture, setCurrentPicture] = useState(0)
   const length = allPictures.length
 
-  function nextSlide() {
+  function slideSuivant() { //Création de la fonction photo suivante
     setCurrentPicture(currentPicture === length - 1 ? 0 : currentPicture + 1)
   }
 
-  function prevSlide() {
+  function slidePrecedent() { //Création de la fonction des photo précédent
     setCurrentPicture(currentPicture === 0 ? length - 1 : currentPicture - 1)
   }
 
   return (
-    <section className="slider">
+    <section className="slider"> {/* Si le nombre de photo >1 alors on met le slide précedent ou slide suivant */}
       {length > 1 && (
         <>
-          <span className="slider__arrowLeft" onClick={prevSlide}>
+          <span className="slider__arrowLeft" onClick={slidePrecedent}>
             <svg
               width="35"
               height="55"
@@ -30,7 +30,7 @@ function Slider({ allPictures }) {
               />
             </svg>
           </span>
-          <span className="slider__arrowRight" onClick={nextSlide}>
+          <span className="slider__arrowRight" onClick={slideSuivant}>
             <svg
               width="35"
               height="55"
@@ -45,7 +45,7 @@ function Slider({ allPictures }) {
             </svg>
           </span>
         </>
-      )}
+      )} {/* Si non je met le photo en question */}
 
       {allPictures.map((picture, index) => (
         <div className={index} key={index}>

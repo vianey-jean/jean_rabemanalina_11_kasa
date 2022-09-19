@@ -4,7 +4,7 @@ import Card from '../Card'
 import Loader from '../Loader'
 
 
-function Logement() {
+function Logement() { //Création de la fonction logement
   /**
    * P.M.
    * useState - Hook d'état - :est un Hook qui permet d’ajouter l’état local React à des fonctions composants.
@@ -32,11 +32,11 @@ function Logement() {
   }, [])
 
   return (
-    <>
+    <>  {/* Mettre le loading en attente de telechargement des photo logement */} 
       {loading ? (
         <Loader />
       ) : (
-        <>
+        <> {/*Chargement renseingement des logements avec son id */}
           {LogementsData.map((logement) => (
             <Card key={logement.id} logement={logement} />
           ))}

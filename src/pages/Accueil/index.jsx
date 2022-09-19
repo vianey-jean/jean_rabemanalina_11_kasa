@@ -2,14 +2,14 @@ import Banner from '../../components/Banner'
 import Logement from '../../components/Logement'
 
 
-function Accueil() {
+function Accueil() {//Création de la méthode Acceuil
   return (
     <>
-      <section className="banner">
+      <section className="banner"> {/*Faire appel le banner */}
         <Banner />
       </section>
 
-      <section className="listingHousing">
+      <section className="listeLogement"> {/* Faire appel Logement. */}
         <Logement />
       </section>
     </>

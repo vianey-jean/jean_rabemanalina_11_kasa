@@ -1,6 +1,6 @@
 
 function Rating({ numberOfStars }) {
-  return (
+  return (//Mise en forme les étoiles
     <div className="rating article__rating">
       {[...Array(5)].map((item, index) => (
         <svg

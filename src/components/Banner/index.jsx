@@ -1,8 +1,8 @@
 import banner from '../../assets/banner.png'
 
 
-function Banner() {
-  return (
+function Banner() { //Création de la fonction banner
+  return (//Mettre en place le photo 
     <>
       <div className="banner__image">
         <img src={banner} alt="Samuel h. boardman state scenic corridor, usa" />
