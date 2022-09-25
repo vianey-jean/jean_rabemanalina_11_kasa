@@ -2,7 +2,7 @@ import Slider from '../Slider'
 import Tag from '../Tag'
 import Rating from '../Rating'
 import Collapse from '../Collapse'
-
+import './_detailLogement.scss'
 
 function DetailLogement({ logement }) {
  //Cration de fonction detailLogement

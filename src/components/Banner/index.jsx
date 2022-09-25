@@ -1,5 +1,5 @@
 import banner from '../../assets/banner.png'
-
+import './_banner.scss'
 
 function Banner() { //Création de la fonction banner
   return (//Mettre en place le photo 

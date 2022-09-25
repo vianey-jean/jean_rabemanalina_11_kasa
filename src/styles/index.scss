@@ -1,15 +1,35 @@
 
-@import "./global";
-@import "./header";
-@import "./banner";
-@import "./loader";
-@import "./Accueil";
-@import "./card";
-@import "./detailLogement";
-@import "./rating";
-@import "./Tag";
-@import "./collapse";
-@import "./slide";
-@import "./apropos";
-@import "./erreur";
-@import "./footer"
+//@import "./global";
+//@import "./header";
+//@import "./banner";
+//@import "./loader";
+//@import "./Accueil";
+//@import "./card";
+//@import "./detailLogement";
+//@import "./rating";
+//@import "./Tag";
+//@import "./collapse";
+//@import "./slide";
+//@import "./apropos";
+//@import "./erreur";
+//@import "./footer"
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  font-size: 16px;
+  color: #ff6060;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}

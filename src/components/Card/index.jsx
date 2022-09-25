@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import './_card.scss'
 
 function card({ logement }) { //création de fonction card  pour logement
   return (

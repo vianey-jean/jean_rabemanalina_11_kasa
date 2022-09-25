@@ -13,14 +13,14 @@
   }
 
   &.false {
-    background-image:url('../../src/assets/haut.png');
+    background-image:url('../../../src/assets/haut.png');
     background-repeat: no-repeat;
     background-position: 97% center;
     background-size: 18px auto;
   }
   
   &.true {
-    background-image:url('../../src/assets/bas.png');
+    background-image:url('../../../src/assets/bas.png');
     background-repeat: no-repeat;
     background-position: 97% center;
     background-size: 18px auto;

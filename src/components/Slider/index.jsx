@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './_slide.scss'
 function Slider({ allPictures }) { //Création de la fonction Slider
   const [currentPicture, setCurrentPicture] = useState(0)
   const length = allPictures.length

@@ -1,5 +1,5 @@
 import logo from '../../assets/logo_white.svg'
-
+import './_footer.scss'
 
 function Footer() { //Création méthode footer
   return ( //retourn mise en forme de footer

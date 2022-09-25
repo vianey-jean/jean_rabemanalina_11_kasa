@@ -1,6 +1,6 @@
 import Banner from '../../components/Banner'
 import Logement from '../../components/Logement'
-
+import './_accueil.scss'
 
 function Accueil() {//Création de la méthode Acceuil
   return (

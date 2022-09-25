@@ -1,4 +1,4 @@
-
+import './_loader.scss'
 
 function Loader() { //Création de la fonction loader
   return (

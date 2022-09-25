@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import logo from '../../assets/logo_kasa.svg'
-
+import './_header.scss'
 
 function Header() { //Création de méthode header
   return (

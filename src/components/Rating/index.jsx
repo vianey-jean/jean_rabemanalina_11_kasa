@@ -1,4 +1,4 @@
-
+import './_rating.scss'
 function Rating({ numberOfStars }) {
   return (//Mise en forme les étoiles
     <div className="rating article__rating">

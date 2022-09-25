@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import './_collapse.scss';
+
 
 
 function Collapse({ title, content }) {//Création Fonction collapse
