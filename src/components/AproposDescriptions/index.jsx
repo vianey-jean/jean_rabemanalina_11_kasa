@@ -1,4 +1,5 @@
 import './_apropos.scss';
+
 const AproposDescriptions = [
   {
     title: 'Fiabilité',
