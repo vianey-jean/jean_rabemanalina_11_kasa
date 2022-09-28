@@ -17,6 +17,11 @@ function LogementsDetails() {
     getData().then((data) => {
       setLogementData(data);
       setLoading(false);
+      /**Ici on veux comparer id qui est selection  à la data. 
+        *On dit que si le logement a affiche est nul ou 0, alors on navige avec 
+        *avec usenavigate, on navigue à 404, mais si ce n'est pas a propos, accueil, logement ou fichelogement, alors c'est directement 
+        *aller vers la page 404
+        * */
       const logementAAfficher = data.filter((logement) => logement.id === id);
       if (logementAAfficher == null || logementAAfficher.length === 0) {
         navigate("/404");
@@ -29,7 +34,9 @@ function LogementsDetails() {
     <section>
       {loading ? (
         <Loader />
-      ) : (
+      ) : (/**
+              *ici on met touis les logement si logement id est strictement égale a id selectionné.
+             */
         LogementData.filter((logement) => logement.id === id).map(
           (logement) => <DetailLogement key={logement.id} logement={logement} />
         )
