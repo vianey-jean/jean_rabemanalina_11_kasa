@@ -64,7 +64,7 @@ function Slider({ allPictures }) { //Création de la fonction Slider
       ))}
       <span className="slider__counter">
             {currentPicture + 1 + " / " + length}
-          </span>
+      </span>
     
     </section>
   )
