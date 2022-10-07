@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './_slide.scss'
+
+
 function Slider({ allPictures }) { //Création de la fonction Slider
   const [currentPicture, setCurrentPicture] = useState(0)
   const length = allPictures.length
@@ -15,8 +17,8 @@ function Slider({ allPictures }) { //Création de la fonction Slider
   return (
     <section className="slider"> {/* Si le nombre de photo >1 alors on met le slide précedent ou slide suivant */}
       {length > 1 && (
-        <>
-          <span className="slider__arrowLeft" onClick={slidePrecedent}>
+        <><div>
+          <div className="slider__arrowLeft" onClick={slidePrecedent}>
             <svg
               width="35"
               height="55"
@@ -29,8 +31,8 @@ function Slider({ allPictures }) { //Création de la fonction Slider
                 fill="white"
               />
             </svg>
-          </span>
-          <span className="slider__arrowRight" onClick={slideSuivant}>
+          </div>
+          <div className="slider__arrowRight" onClick={slideSuivant}>
             <svg
               width="35"
               height="55"
@@ -43,7 +45,8 @@ function Slider({ allPictures }) { //Création de la fonction Slider
                 fill="white"
               />
             </svg>
-          </span>
+          </div>
+          </div>
         </>
       )} {/* Si non je met le photo en question */}
 
@@ -57,7 +60,12 @@ function Slider({ allPictures }) { //Création de la fonction Slider
             />
           )}
         </div>
+
       ))}
+      <span className="slider__counter">
+            {currentPicture + 1 + " / " + length}
+          </span>
+    
     </section>
   )
 }

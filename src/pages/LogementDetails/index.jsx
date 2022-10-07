@@ -24,7 +24,7 @@ function LogementsDetails() {
         * */
       const logementAAfficher = data.filter((logement) => logement.id === id);
       if (logementAAfficher == null || logementAAfficher.length === 0) {
-        navigate("/404");
+        navigate("/PagesErreur");
       }
     });
   }, [id, navigate]);

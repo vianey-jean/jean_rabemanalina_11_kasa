@@ -1,9 +1,10 @@
-import axios from 'axios'
+
 
 export async function getData() {
   try {
-    const response = await axios.get(`../datas/logement.json`)
-    return response.data
+    const response = await fetch(`../datas/logement.json`)
+    //const data  = await response.json()
+    return await response.json()
   } catch (erreur) {
     console.log(erreur)
   }
