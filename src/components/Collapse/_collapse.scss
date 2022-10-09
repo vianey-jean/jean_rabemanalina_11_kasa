@@ -3,11 +3,12 @@
   color: #fff;
   padding: 0.8em 1.5em;
   border-radius: 10px;
+  font-size: 24px;
   cursor: pointer;
 
   & p {
     margin: 0px;
-    font-size: 13px;
+    font-size: px;
     font-weight: 500;
     //padding: 5.5px 11.5px;
   }
@@ -35,11 +36,11 @@
 
   & p {
     margin: 0px;
-    font-size: 12px;
+    font-size: 24px;
   }
    
   ul {
-    font-size: 12px;
+    font-size: 24px;
     margin: 0px;
     list-style: none;
     padding-left:0;

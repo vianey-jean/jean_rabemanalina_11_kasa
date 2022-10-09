@@ -43,16 +43,31 @@
 /* Desktop */
 @media (min-width: 640px) {
   .nav {
-    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 1em auto;
+    padding-top: 2em;
+    width: 1240px;
 
-    &__logo {
-      height: 68px;
-      margin-left: 100px;
-    }
+      &__logo {
+        height: 70px;
+        width: 100%;
   }
+  .menu {
+    display: flex;
+    color: #FF6060;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-left: 600px;
+    
+    }
 
   .menu__link {
+    display: flex;
+    color: #FF6060;
     font-size: 24px;
-    margin-left: 80px;
+    font-weight: 500px;
+    }
   }
 }

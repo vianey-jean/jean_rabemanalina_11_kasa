@@ -19,6 +19,8 @@ function Header() { //Création de méthode header
           >
             Accueil
           </NavLink>
+        </div>
+        <div className="accueil">
           <NavLink 
             className={({ isActive }) =>
               isActive ? 'menu__link menu__link__active' : 'menu__link'

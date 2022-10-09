@@ -44,7 +44,9 @@
 @media (min-width: 640px) {
     .banner {
         height: 223px;
-        margin: 43px 100px 43px 100px;
+        width: 1240px;
+        margin:  0 auto;
+        margin-top: 43px;
         
         &__image {
             height: 223px;
